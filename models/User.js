@@ -30,6 +30,10 @@ const UserSchema = new Schema({
     publicKey: {
         type: String,
         default: ""
+    },
+    isVerified: {
+        type: Boolean,
+        default: false
     }
 }, {
     timestamps: true
